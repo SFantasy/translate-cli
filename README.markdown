@@ -7,4 +7,18 @@ Translate between Chinese and English.
 
 - Need [jsawk](https://github.com/micha/jsawk)
 
-- Usage example: `sh dic.sh 你好`
+### NOTE
+
+#### Installation
+
+    git clone https://github.com/SFantasy/translate-cli
+	cd translate-cli
+	chmod 775 dic.sh
+	ln dic.sh /bin/dic
+	
+#### Usage
+
+    $ dic 你好
+	Hello
+	$ dic 火车
+	Train
