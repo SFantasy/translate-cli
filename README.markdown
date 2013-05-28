@@ -11,7 +11,7 @@ Translate between Chinese and English.
 
 #### Installation
 
-    git clone https://github.com/SFantasy/translate-cli
+    git clone https://github.com/SFantasy/translate-cli.git
 	cd translate-cli
 	chmod 775 dic.sh
 	ln dic.sh /bin/dic
