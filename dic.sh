@@ -1,7 +1,5 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-url='http://openapi.baidu.com/public/2.0/bmt/translate?client_id=IGRde9G9hsF3y6zr4aVPvMxq&from=auto&to=auto&q='+$1
+result=$(curl 'http://openapi.baidu.com/public/2.0/bmt/translate?client_id=IGRde9G9hsF3y6zr4aVPvMxq&from=auto&to=auto&q='+$1 --silent | ./JSON.sh -l | awk '/\["trans_result",0,"dst"]/ {print $2 }')
 
-result=$(curl $url --silent | jsawk 'return this.trans_result[0].dst')
-
-echo $result
+echo -e $result
