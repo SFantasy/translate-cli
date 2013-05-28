@@ -5,7 +5,7 @@ Translate between Chinese and English.
 
 - Use the api of [fanyi.baidu.com](fanyi.baidu.com)
 
-- Need [jsawk](https://github.com/micha/jsawk)
+- Dependence: [JSON.sh](https://github.com/dominictarr/JSON.sh)
 
 ### NOTE
 
@@ -22,3 +22,5 @@ Translate between Chinese and English.
 	Hello
 	$ dic 火车
 	Train
+	$ dic Today
+	今天
