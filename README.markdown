@@ -3,7 +3,7 @@ Translate-cli
 
 Translate between Chinese and English.
 
-- Use the api of [fanyi.baidu.com](fanyi.baidu.com)
+- Use the api of [fanyi.baidu.com](http://fanyi.baidu.com)
 
 - Dependence: [JSON.sh](https://github.com/dominictarr/JSON.sh)
 
