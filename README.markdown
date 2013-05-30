@@ -13,8 +13,10 @@ Translate between Chinese and English.
 
     git clone https://github.com/SFantasy/translate-cli.git
 	cd translate-cli
-	chmod 775 dic.sh
-	ln dic.sh /bin/dic
+	bash install.sh
+	#or
+	chmod 775 install.sh
+	./install.sh
 	
 #### Usage
 
