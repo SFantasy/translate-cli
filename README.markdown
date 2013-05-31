@@ -33,3 +33,7 @@ Translate between Chinese and English in your Terminal!
 	Train
 	$ dic Today
 	今天
+	
+### Licence
+
+Based on [MIT Licence](http://en.wikipedia.org/wiki/MIT_License)
