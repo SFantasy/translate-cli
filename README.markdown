@@ -1,7 +1,7 @@
 Translate-cli
 ---
 
-Translate between Chinese and English.
+Translate between Chinese and English in your Terminal!
 
 - Use the api of [fanyi.baidu.com](http://fanyi.baidu.com)
 
@@ -17,6 +17,13 @@ Translate between Chinese and English.
 	#or
 	chmod 775 install.sh
 	./install.sh
+	
+#### Update
+
+    bash update.sh
+	#or
+	chmod 775 update.sh
+	./update.sh
 	
 #### Usage
 
