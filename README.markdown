@@ -27,12 +27,14 @@ Translate between Chinese and English in your Terminal!
 	
 #### Usage
 
-    $ dic 你好
+    $ trans 你好
 	Hello
-	$ dic 火车
+	$ trans 火车
 	Train
 	$ dic Today
 	今天
+	$ dic Professor
+	教授
 	
 ### Licence
 
