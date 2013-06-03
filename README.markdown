@@ -27,6 +27,14 @@ Translate between Chinese and English in your Terminal!
 	
 #### Usage
 
+* from zh to en
+
+`trans zh-word`
+
+* from en to zh
+
+`dic en-word`
+
     $ trans 你好
 	Hello
 	$ trans 火车
