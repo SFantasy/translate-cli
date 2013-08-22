@@ -44,6 +44,6 @@ Translate between Chinese and English in your Terminal!
 	$ dic Professor
 	教授
 	
-### Licence
+### License
 
 Based on [MIT Licence](http://en.wikipedia.org/wiki/MIT_License)
