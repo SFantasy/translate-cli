@@ -15,16 +15,16 @@ Translate between Chinese and English in your Terminal!
 	cd translate-cli
 	bash install.sh
 	#or
-	chmod 775 install.sh
+	sudo chmod 775 install.sh
 	./install.sh
-	
+
 #### Update
 
     bash update.sh
 	#or
-	chmod 775 update.sh
+	sudo chmod 775 update.sh
 	./update.sh
-	
+
 #### Usage
 
 * from zh to en
@@ -43,7 +43,14 @@ Translate between Chinese and English in your Terminal!
 	今天
 	$ dic Professor
 	教授
-	
+
+#### Uninstallation
+
+    $ bash uninstall.sh
+    #or
+    sudo chmod 775 uninstall.sh
+    ./uninstall.sh
+
 ### License
 
 Based on [MIT Licence](http://en.wikipedia.org/wiki/MIT_License)
