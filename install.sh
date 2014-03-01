@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 #Filename: install.sh
 #Author: forever.fantasy27@gmail.com
 
